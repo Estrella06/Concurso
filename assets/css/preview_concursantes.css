@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.main{
+    width: 100%;
+    height: auto;
+    background: #f1f0f0;
+    margin: 0;
+    padding: 0;
+}
+.concursantes{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.titulo{
+    align-items: center;    
+    display: block;
+    align-content: center;
+    padding: 1.4rem 0;
+}
+.titulo p{
+    width: 100%;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+.lista{
+    width: 100% !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: auto;
+    text-align: center;
+}
+.item{
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+.preview{
+    padding: 1rem;
+    margin: 0 auto;
+    background: transparent;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-width: 70%;
+}
+.preview img{
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: none !important;
+    max-height: 75%;
+}
+.preview p{
+    font-size: 1.4rem;
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
